@@ -2624,13 +2624,16 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
 		.image.main {
-			display: block;
+			display: block; 
+			margin: 4rem 0;
+			width: 50%;
+		}
+		.image.sam {
+			display: block; 
 			margin: 4rem 0;
 			width: 35%;
 		}
-
 			.image.main:first-child {
 				margin-top: 0;
 			}
