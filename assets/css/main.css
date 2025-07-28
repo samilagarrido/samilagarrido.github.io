@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:wght@300;400;500;600&display=swap");
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -92,7 +92,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #f8f6f0;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -137,14 +137,14 @@ input, select, textarea {
 		}
 
 	body {
-		color: #212931;
+		color: #2c2c2c;
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
+		font-family: "Crimson Text", "Times New Roman", serif;
+		font-weight: 400;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.8;
 	}
 
 	a {
@@ -174,12 +174,13 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
-		line-height: 1.5;
-		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		font-family: "Playfair Display", "Times New Roman", serif;
+		font-weight: 600;
+		line-height: 1.3;
+		letter-spacing: 0.02em;
+		text-transform: none;
 		margin: 0 0 1rem 0;
+		color: #1a1a1a;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -281,38 +282,38 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #212931;
+		color: #2c2c2c;
 	}
 
 	a {
-		color: #212931;
-		border-bottom-color: rgba(33, 41, 49, 0.5);
+		color: #8b6914;
+		border-bottom-color: rgba(139, 105, 20, 0.3);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #6d5411 !important;
 		}
 
 	strong, b {
-		color: #212931;
+		color: #1a1a1a;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #1a1a1a;
 	}
 
 	blockquote {
-		border-left-color: #eeeeee;
+		border-left-color: #d4c4a0;
 	}
 
 	code {
-		background: rgba(220, 220, 220, 0.25);
-		border-color: #eeeeee;
+		background: rgba(212, 196, 160, 0.25);
+		border-color: #d4c4a0;
 	}
 
 	hr {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #d4c4a0;
 	}
 
 /* Row */
@@ -2049,7 +2050,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: #eeeeee;
+		border-color: #d4c4a0;
 	}
 
 /* Button */
@@ -2199,8 +2200,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #8b6914;
+		color: #8b6914 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2208,8 +2209,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #6d5411;
+			color: #6d5411 !important;
 		}
 
 		input[type="submit"].primary,
@@ -2217,7 +2218,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #8b6914;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2227,7 +2228,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #6d5411;
 			}
 
 /* Form */
@@ -2476,7 +2477,7 @@ input, select, textarea {
 	input[type="email"],
 	select,
 	textarea {
-		border-color: #eeeeee;
+		border-color: #d4c4a0;
 	}
 
 		input[type="text"]:focus,
@@ -2497,7 +2498,7 @@ input, select, textarea {
 		}
 
 	.select-wrapper:before {
-		color: #eeeeee;
+		color: #d4c4a0;
 	}
 
 	input[type="checkbox"] + label,
@@ -2507,7 +2508,7 @@ input, select, textarea {
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			border-color: #eeeeee;
+			border-color: #d4c4a0;
 		}
 
 	input[type="checkbox"]:checked + label:before,
@@ -2627,7 +2628,7 @@ input, select, textarea {
 		.image.main {
 			display: block; 
 			margin: 4rem 0;
-			width: 50%;
+			width: 30%;
 		}
 		.image.sam {
 			display: block; 
@@ -2882,7 +2883,7 @@ input, select, textarea {
 		}
 
 	ul.divided li {
-		border-top-color: #eeeeee;
+		border-top-color: #d4c4a0;
 	}
 
 	ul.icons li a.icon:hover:before {
@@ -2890,7 +2891,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li .icon:before {
-		box-shadow: inset 0 0 0 2px #eeeeee;
+		box-shadow: inset 0 0 0 2px #d4c4a0;
 	}
 
 	ul.icons.alt li a.icon:hover:before {
@@ -2993,7 +2994,7 @@ input, select, textarea {
 		}
 
 	header.major .date:before, header.major .date:after {
-		border-top-color: #eeeeee;
+		border-top-color: #d4c4a0;
 	}
 
 /* Table */
@@ -3072,7 +3073,7 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: #eeeeee;
+		border-color: #d4c4a0;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
@@ -3084,15 +3085,15 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #d4c4a0;
 	}
 
 	table tfoot {
-		border-top-color: #eeeeee;
+		border-top-color: #d4c4a0;
 	}
 
 	table.alt tbody tr td {
-		border-color: #eeeeee;
+		border-color: #d4c4a0;
 	}
 
 /* Pagination */
@@ -3185,7 +3186,7 @@ input, select, textarea {
 		}
 
 	.pagination a, .pagination span {
-		border-color: #eeeeee;
+		border-color: #d4c4a0;
 	}
 
 	.pagination a {
@@ -3204,11 +3205,11 @@ input, select, textarea {
 			}
 
 		.pagination a.active {
-			background-color: #eeeeee;
+			background-color: #d4c4a0;
 		}
 
 	.pagination span {
-		color: #eeeeee;
+		color: #d4c4a0;
 	}
 
 /* Wrapper */
@@ -3489,7 +3490,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #ffffff;
+		color: #8b6914;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3762,7 +3763,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 2px #d4c4a0;
 			margin: 0;
 		}
 
@@ -3858,7 +3859,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				border-color: #d4c4a0;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
@@ -4579,7 +4580,7 @@ input, select, textarea {
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px #d4c4a0;
 			}
 
 				#navPanel .links li a {
@@ -4681,4 +4682,60 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
+	}
+
+/* Old Money Theme Enhancements */
+
+	/* Add subtle text shadow to headers for elegance */
+	h1, h2, h3, h4, h5, h6 {
+		text-shadow: 0 1px 2px rgba(139, 105, 20, 0.1);
+	}
+
+	/* Enhanced article styling with subtle borders and shadows */
+	#main > .posts > article {
+		background: linear-gradient(to bottom, #fdfcf8 0%, #f8f6f0 100%);
+		box-shadow: 0 2px 8px rgba(139, 105, 20, 0.1);
+		border-radius: 3px;
+		transition: all 0.3s ease;
+	}
+
+	#main > .posts > article:hover {
+		box-shadow: 0 4px 12px rgba(139, 105, 20, 0.15);
+		transform: translateY(-2px);
+	}
+
+	/* Enhanced typography for a more refined look */
+	p {
+		color: #3a3a3a;
+		letter-spacing: 0.3px;
+	}
+
+	/* Old money color for emphasis */
+	em, i {
+		color: #8b6914;
+		font-style: italic;
+	}
+
+	/* Elegant navigation styling */
+	#nav {
+		background: rgba(248, 246, 240, 0.95);
+		backdrop-filter: blur(10px);
+	}
+
+	/* Refined footer */
+	#footer {
+		background: linear-gradient(to bottom, #f8f6f0 0%, #f0ede5 100%);
+		border-top: 1px solid #d4c4a0;
+	}
+
+	/* Smaller intro image */
+	#intro .image.main {
+		width: 25%;
+		margin: 2rem auto;
+		box-shadow: 0 4px 12px rgba(139, 105, 20, 0.2);
+	}
+
+	#intro .image.main img {
+		width: 100%;
+		height: auto;
 	}
